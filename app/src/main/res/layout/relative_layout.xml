@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7D532">
+
+
+    <TextView
+       android:id="@+id/txt_android"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#DB1241"
+        android:background="#FFEB3B"
+
+       android:text="Android Development" />
+    <TextView
+        android:id="@+id/txt_bootcamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Bootcamp"
+        android:layout_margin="30dp"
+        android:layout_below="@id/txt_android" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_android"
+        android:layout_centerHorizontal="true"
+
+        android:layout_toRightOf="@id/txt_bootcamp"
+        android:text="Layout Example" />
+
+    <TextView
+        android:id="@+id/txt_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_bootcamp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:background="#0CF716"
+        android:text="Hello"
+        android:textColor="#0E8BEE"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/txt_hello"
+        android:text="Morning"
+        android:layout_marginLeft="20dp"
+        android:textSize="25sp"
+        android:textColor="#EB0E0E"
+        android:background="#F7F6F6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#DD1B5A"
+        android:layout_centerHorizontal="true"
+        android:text="Button" />
+
+</RelativeLayout>
